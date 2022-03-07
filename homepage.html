@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>homepage</title>
+  </head>
+
+<style>
+  
+
+
+  h1{
+
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.719);
+    font-weight: bolder;
+  }
+
+  nav{
+
+margin-bottom: 20px;
+background-color: #ebf3faf6;
+}
+  
+  footer{
+
+text-align: center;
+background-color: #ebf3faf6;
+margin-top: 50px;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+border-style:none;
+padding-bottom: 5px;
+color: rgb(243, 66, 190);
+
+
+  }
+
+  body{
+
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-business-minimalistic-honeycomb-blue-banner-background-image_255048.jpg);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    
+  }
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.jumbotron{
+    text-align: center;
+    background-color: rgba(0,0,0,.12);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+} 
+
+.carousel .carousel-item {
+  height: 500px;
+  
+  
+}
+
+.carousel-inner > .carousel-item > img {
+    
+    
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+ }
+
+.content{
+  margin-top: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+
+
+  </style>
+
+
+
+  <body>
+
+    <nav class="navbar sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="homepage.html">Movies</a>
+        
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Series(soon)</a>
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Anime(soon)</a>
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Manga(soon)</a>
+        
+        <a href="index.html"><button type="button" class="btn btn-outline-danger">About Us</button></a>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid justify-content-center">  
+        <div class="container">
+         <h1 class="display-4">YourMovieReference</h1>
+          <p class="lead">A movie reference list.</p>
+        </div>
+      </div>
+
+
+      
+<div class="container-fluid justify-content-center " style="width: 1000px;">
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="4000">
+        <img  src="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Oldboykoreanposter.jpg/220px-Oldboykoreanposter.jpg" class="d-block w-100" alt="..." style="object-fit: contain;" >
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img  src="https://upload.wikimedia.org/wikipedia/en/thumb/9/91/I_Saw_the_Devil_film_poster.jpg/220px-I_Saw_the_Devil_film_poster.jpg" class="d-block w-100" alt="..." style="object-fit: contain;" >
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img  src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Kubo_and_the_Two_Strings_poster.png/220px-Kubo_and_the_Two_Strings_poster.png" class="d-block w-100" alt="..." style="object-fit: contain;" >
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img  src="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Parasite_%282019_film%29.png/220px-Parasite_%282019_film%29.png" class="d-block w-100" alt="..." style="object-fit: contain;" >
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img  src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Angels_and_demons.jpg/220px-Angels_and_demons.jpg" class="d-block w-100" alt="..." style="object-fit: contain;" >
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</div> 
+
+
+
+      <div class="content">
+
+        <p>Here's a list of different movies suggested by the authors. If you love movies but can't decide on what to watch, this page can be a help to you. It includes different types, genres and countries which gives variety to the list. The list updates every weeks to serve you diffrent choices of movies to enjoy. Have fun watching!</p>
+
+      </div>
+    
+
+ 
+    <a href="list.html"><button type="button" class="btn btn-primary btn-lg  col-2 offset-5" >View List</button></a>
+    
+
+
+
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+  </body>
+
+  <footer>
+    <h6 class="w3-text-gray">Find us on social media ^^.</h6>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+
+</html>
